@@ -239,7 +239,7 @@ ranked.forEach((m, i) => {
       <div class="rank">${medals[i] || `#${i+1}`}</div>
       <div class="name">${m.name}</div>
       <div class="pct">${pctLost(m).toFixed(1)}%</div>
-      <div class="lbl">lost ${weightLost(m).toFixed(1)} ${DATA.unit}</div>
+      <div class="lbl"> ${weightLost(m).toFixed(1)} ${DATA.unit}</div>
     </div>`;
 });
 
